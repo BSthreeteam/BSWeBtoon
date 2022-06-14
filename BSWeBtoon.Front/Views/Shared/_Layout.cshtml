@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - BSWeBtoon.Front</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -44,5 +45,9 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("TopCss", required: false)
+    @await RenderSectionAsync("TopJs", required: false)
+    @await RenderSectionAsync("EndCss", required: false)
+    @await RenderSectionAsync("EndJs", required: false)
 </body>
 </html>
