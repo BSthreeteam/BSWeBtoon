@@ -20,6 +20,7 @@ namespace BSWeBtoon.Front.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
