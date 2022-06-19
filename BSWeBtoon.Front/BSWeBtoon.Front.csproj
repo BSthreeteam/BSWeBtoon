@@ -5,10 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
+=======
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+>>>>>>> bdccd3b86befb24a2dc3ef5a33ec2ca086697d09
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.15">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,6 +24,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+<<<<<<< HEAD
+=======
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+>>>>>>> bdccd3b86befb24a2dc3ef5a33ec2ca086697d09
   </ItemGroup>
 
 </Project>
