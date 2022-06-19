@@ -1,5 +1,3 @@
-using BSWeBtoon.Front.Models;
-using BSWeBtoon.Front.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,13 +6,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Mvcdemo.Model.Models;
-using Mvcdemo.Model.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BSWeBtoon.Front
+namespace Mvcdemo.Admin
 {
     public class Startup
     {
@@ -33,11 +30,7 @@ namespace BSWeBtoon.Front
             {
                 options.UseSqlServer(Configuration.GetConnectionString("WebtoonContext"));
             });
-            services.AddScoped<WebtoonService, WebtoonService>();
-            services.AddScoped<CRUD_data, CRUD_data>();
-
-
-
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

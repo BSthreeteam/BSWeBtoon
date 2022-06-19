@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace BSWeBtoon.Front.Models
+namespace Mvcdemo.Admin.Models
 {
     public class ErrorViewModel
     {

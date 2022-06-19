@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSWeBtoon.Front", "BSWeBtoon.Front\BSWeBtoon.Front.csproj", "{B01E875A-F60E-4BC0-A1A5-66FA3F25875C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSWeBtoon.Front", "BSWeBtoon.Front\BSWeBtoon.Front.csproj", "{B01E875A-F60E-4BC0-A1A5-66FA3F25875C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvcdemo.Admin", "Mvcdemo.Admin\Mvcdemo.Admin.csproj", "{8AC77815-746E-4A1B-B9E3-C89EFDCDB5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvcdemo.Model", "Mvcdemo.Model\Mvcdemo.Model.csproj", "{92EE3544-2998-4C8F-8021-8FCEEE015271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B01E875A-F60E-4BC0-A1A5-66FA3F25875C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01E875A-F60E-4BC0-A1A5-66FA3F25875C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01E875A-F60E-4BC0-A1A5-66FA3F25875C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC77815-746E-4A1B-B9E3-C89EFDCDB5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC77815-746E-4A1B-B9E3-C89EFDCDB5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC77815-746E-4A1B-B9E3-C89EFDCDB5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC77815-746E-4A1B-B9E3-C89EFDCDB5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EE3544-2998-4C8F-8021-8FCEEE015271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EE3544-2998-4C8F-8021-8FCEEE015271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EE3544-2998-4C8F-8021-8FCEEE015271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EE3544-2998-4C8F-8021-8FCEEE015271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

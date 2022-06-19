@@ -1,13 +1,13 @@
-﻿using BSWeBtoon.Front.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Mvcdemo.Admin.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BSWeBtoon.Front.Controllers
+namespace Mvcdemo.Admin.Controllers
 {
     public class HomeController : Controller
     {
@@ -25,7 +25,6 @@ namespace BSWeBtoon.Front.Controllers
 
         public IActionResult Privacy()
         {
-
             return View();
         }
 
