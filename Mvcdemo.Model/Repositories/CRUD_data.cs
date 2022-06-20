@@ -47,11 +47,7 @@ namespace Mvcdemo.Model.Repositories
 
         //加入以下
         //拿掉Expression<Func<T,TKey>> keySelector
-        public IQueryable<T> GetAll<T, TKey>()
-
-        //加入
-        //拿掉.OrderBy();
-        where T : class
+        public IQueryable<T> GetAll<T>() where T : class
         {
             return _context.Set<T>();
         }

@@ -33,8 +33,8 @@ namespace BSWeBtoon.Front
             {
                 options.UseSqlServer(Configuration.GetConnectionString("WebtoonContext"));
             });
-            services.AddScoped<WebtoonService, WebtoonService>();
-            services.AddScoped<CRUD_data, CRUD_data>();
+            //services.AddScoped<WebtoonService, WebtoonService>();
+            //services.AddScoped<CRUD_data, CRUD_data>();
 
 
 
