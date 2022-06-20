@@ -14,6 +14,7 @@ namespace BSWeBtoon.Front.Controllers
 
         public IActionResult Index()
         {
+            service.ReadComic();
             return View();
         }
     }
